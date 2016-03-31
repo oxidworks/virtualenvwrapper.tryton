@@ -13,6 +13,7 @@ import subprocess
 
 log = logging.getLogger('virtualenvwrapper.tryton')
 
+template32 = lambda args: template(args, '3.2')
 template30 = lambda args: template(args, '3.0')
 template28 = lambda args: template(args, '2.8')
 template26 = lambda args: template(args, '2.6')
