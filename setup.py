@@ -45,6 +45,7 @@ setup(
         'virtualenvwrapper.project.template': [
             'tryton = virtualenvwrapper.tryton_project:template_develop',
             'tryton_invoke = virtualenvwrapper.tryton_project:template_invoke',
+            'tryton32 = virtualenvwrapper.tryton_project:template32',
             'tryton30 = virtualenvwrapper.tryton_project:template30',
             'tryton28 = virtualenvwrapper.tryton_project:template28',
             'tryton26 = virtualenvwrapper.tryton_project:template26',
